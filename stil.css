@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .topbar {
+      background-color: #81BFDA;
+      padding: 10px 30px;
+      color: whitesmoke;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .content {
+     padding-top: 10px;
+     padding-left: 30px;
+    }
+
+ a {
+    color:white; 
+	
+   }
+  
+	
+	
+  .button-link {
+	font-family: serif;
+    background-color: #81BFDA;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    display: inline-block;
+  }
+
+  .button-link:hover {
+    background-color: #4DADBA;
+  }
+
+	
+	
+  .button-link.second {
+	font-family: serif;
+	margin-left: 6px;
+    background-color: #81BFDA;
+    color: white;
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    display: inline-block;
+  }
+
+  .button-link:hover {
+    background-color: #4DADBA;
+  }
+		blockquote {
+  margin: 10px 20px;
+  padding: 10px 20px;
+  background-color: #f0f8ff;
+  border-left: 6px dotted #81BFDA;
+  font-style: italic;
+  color: #444;
+}
+mark {
+  background-color: #AFDDFF;
+}
+ 
+section {
+   margin: 40px 30px;
+}
+	 
+	.section {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    color: #81BFDA;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+	 text-align: center;
+}
+
+.section ul {
+    list-style-type: disc;
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+}
+
+.section li {
+    font-size: 17px;
+    margin-bottom: 12px;
+    color: #444;
+}
+
+.section ol {
+    list-style-type: decimal;
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+}
+.sections {
+   display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        padding-top: 10px; 
+}
+
+
